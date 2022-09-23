@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <string name="question_text">Какой-то текст</string>
+
+    <string name="true_button">Правда</string>
+    <string name="false_button">Ложь</string>
+    <string name="next_button">Далее</string>
+    <string name="back_button">Назад</string>
+
+    <string name="correct_toast">Правильно!</string>
+    <string name="incorrect_toast">Ошибочка</string>
+
+    <string name="question1">Правда ли, что планета Меркурий ближе всех остальных к Солнцу, чем все остальные?</string>
+    <string name="question2">Правда ли, что гепард быстрейший из всех наземных млекопитающих?</string>
+    <string name="question3">Правда ли что, человеческое тело состоит на 20% из воды?</string>
+    <string name="question4">Правда ли, что возраст дерева можно узнать по его высоте?</string>
+    <string name="question5">Правда ли, что папоротники одни из древнейших растений?</string>
+    <string name="question6">Правда ли, что тихий океан является самым маленьким океаном планеты?</string>
+    <string name="question7">Правда ли, что птица колибри способна развивать до 80 км/ч?</string>
+    <string name="question8">Правда ли, что человеческий скелет состоит из более 200 костей?</string>
+    <string name="question9">Правда ли, что крокодилы меняют цвет кожи, если чувствуют опасность?</string>
+    <string name="question10">Правда ли, что зубы у акулы регулярно сменяются?</string>
+
+</resources>
