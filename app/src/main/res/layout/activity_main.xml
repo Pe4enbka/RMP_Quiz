@@ -82,4 +82,15 @@
         app:layout_constraintStart_toEndOf="@+id/true_button"
         tools:src="@android:drawable/ic_delete" />
 
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="12dp"
+        android:text="@string/cheat_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,14 +2,17 @@
     <string name="app_name">Quiz</string>
 
     <string name="question_text">Какой-то текст</string>
+    <string name="answer_text">Узнать ответ</string>
 
     <string name="true_button">Правда</string>
     <string name="false_button">Ложь</string>
     <string name="next_button">Далее</string>
     <string name="back_button">Назад</string>
+    <string name="cheat_button">Подсказка</string>
 
     <string name="correct_toast">Правильно!</string>
     <string name="incorrect_toast">Ошибочка</string>
+    <string name="judgment_toast">Подсматривать не хорошо!</string>
 
     <string name="question1">Правда ли, что планета Меркурий ближе всех остальных к Солнцу?</string>
     <string name="question2">Правда ли, что гепард быстрейший из всех наземных млекопитающих?</string>
