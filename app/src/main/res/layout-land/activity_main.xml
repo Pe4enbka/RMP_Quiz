@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="24dp"
+        android:text="@string/question_text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/true_button"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/true_button"
+        android:src="@android:drawable/presence_online"
+        android:text="@string/true_button"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/back_button"
+        app:layout_constraintEnd_toStartOf="@+id/false_button"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@android:drawable/presence_online" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/next_button"
+        android:drawablePadding="4dp"
+        android:src="@android:drawable/ic_media_rew"
+        android:text="@string/next_button"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next_button"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@android:drawable/ic_media_rew" />
+
+    <ImageButton
+        android:id="@+id/false_button"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/false_button"
+        android:src="@android:drawable/ic_delete"
+        android:text="@string/false_button"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/true_button"
+        tools:src="@android:drawable/ic_delete" />
+
+    <ImageButton
+        android:id="@+id/next_button"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/next_button"
+        android:drawablePadding="4dp"
+        android:src="@android:drawable/ic_media_ff"
+        android:text="@string/next_button"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/back_button"
+        tools:src="@android:drawable/ic_media_ff" />
+
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="72dp"
+        android:text="@string/cheat_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
